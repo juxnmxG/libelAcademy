@@ -1,0 +1,35 @@
+:root{
+    --blue-color: #141B4D;
+}
+.box-navigation{
+    width: 100%;
+    height: 60px;
+    background-color: var(--blue-color);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.box-navigation nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.box-navigation nav ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+.box-navigation nav ul li{
+    margin: 0 8px;
+}
+.text-icon i{
+    margin-left: 5px;
+    font-size: 11px;
+}
+i{
+    color: white;
+    font-size: 1.5rem;
+}
